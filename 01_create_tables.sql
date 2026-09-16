@@ -1,0 +1,5 @@
+CREATE TABLE Customers (CustomerID INT PRIMARY KEY, Name TEXT, VillageBlock TEXT, Contact TEXT);
+CREATE TABLE Products (ProductID INT PRIMARY KEY, Name TEXT, Price DECIMAL);
+CREATE TABLE Orders (OrderID INT PRIMARY KEY, OrderDate TEXT, CustomerID INT NOT NULL);
+CREATE TABLE OrderDetails (OrderDetailID INT PRIMARY KEY, OrderID INT NOT NULL, ProductID INT NOT NULL, Quantity INT);
+CREATE TABLE Deliveries (DeliveryID INT PRIMARY KEY, Status TEXT, OrderID INT UNIQUE NOT NULL);
