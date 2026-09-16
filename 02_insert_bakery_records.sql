@@ -1,5 +1,79 @@
-INSERT INTO Customers VALUES (1, 'Sarah', 'Block 1 Lot 4', '555-0101'), (2, 'Mark', 'Block 2 Lot 12', '555-0102'), (3, 'Tita Joy', 'Block 1 Lot 9', '555-0103'), (4, 'Kuya Ben', 'Block 3 Lot 2', '555-0104'), (5, 'Elena', 'Block 2 Lot 5', '555-0105');
-INSERT INTO Products VALUES (1, 'Classic Pandesal', 3.00), (2, 'Cheese Pandesal', 5.00), (3, 'Malunggay Pandesal', 4.00), (4, 'Ube Cheese Pandesal', 7.00), (5, 'Spanish Bread', 6.00);
-INSERT INTO Orders VALUES (1, '2026-10-01', 3), (2, '2026-10-01', 1), (3, '2026-10-02', 2), (4, '2026-10-02', 5), (5, '2026-10-03', 4);
-INSERT INTO OrderDetails VALUES (1, 1, 1, 20), (2, 2, 4, 10), (3, 3, 1, 15), (4, 4, 2, 12), (5, 5, 5, 5);
-INSERT INTO Deliveries VALUES (1, 'Delivered', 1), (2, 'Pending', 2), (3, 'Delivered', 3), (4, 'Out for Delivery', 4), (5, 'Pending', 5);
+INSERT INTO Customers VALUES 
+(1, 'Sarah', 'Block 1 Lot 4', '555-0101'), 
+(2, 'Mark', 'Block 2 Lot 12', '555-0102'), 
+(3, 'Tita Joy', 'Block 1 Lot 9', '555-0103'), 
+(4, 'Kuya Ben', 'Block 3 Lot 2', '555-0104'), 
+(5, 'Elena', 'Block 2 Lot 5', '555-0105'),
+(6, 'Miguel', 'Block 3 Lot 8', '555-0106'),
+(7, 'Ate Susan', 'Block 4 Lot 1', '555-0107'),
+(8, 'Carlos', 'Block 4 Lot 15', '555-0108'),
+(9, 'Bea', 'Block 1 Lot 2', '555-0109'),
+(10, 'Lola Carmen', 'Block 5 Lot 5', '555-0110');
+
+INSERT INTO Products VALUES 
+(1, 'Classic Pandesal', 3.00), 
+(2, 'Cheese Pandesal', 5.00), 
+(3, 'Malunggay Pandesal', 4.00), 
+(4, 'Ube Cheese Pandesal', 7.00), 
+(5, 'Spanish Bread', 6.00),
+(6, 'Pan de Coco', 5.00),
+(7, 'Ensaymada', 12.00),
+(8, 'Monay', 5.00),
+(9, 'Kababayan', 4.00),
+(10, 'Sliced Loaf Bread', 45.00);
+
+INSERT INTO Orders VALUES 
+(1, '2026-10-01', 3), 
+(2, '2026-10-01', 1), 
+(3, '2026-10-02', 2), 
+(4, '2026-10-02', 5), 
+(5, '2026-10-03', 4),
+(6, '2026-10-03', 8),
+(7, '2026-10-04', 10),
+(8, '2026-10-04', 7),
+(9, '2026-10-05', 6),
+(10, '2026-10-05', 9),
+(11, '2026-10-06', 1),
+(12, '2026-10-06', 3),
+(13, '2026-10-07', 2),
+(14, '2026-10-07', 5),
+(15, '2026-10-08', 4);
+
+INSERT INTO OrderDetails VALUES 
+(1, 1, 1, 20), 
+(2, 2, 4, 10), 
+(3, 3, 1, 15), 
+(4, 3, 5, 5),
+(5, 4, 2, 12), 
+(6, 5, 5, 5),
+(7, 6, 10, 1), 
+(8, 7, 1, 30),
+(9, 8, 7, 4),
+(10, 8, 8, 5),
+(11, 9, 3, 15),
+(12, 10, 6, 10),
+(13, 11, 4, 8),
+(14, 12, 1, 25),
+(15, 12, 9, 10),
+(16, 13, 2, 12),
+(17, 14, 5, 6),
+(18, 14, 10, 2),
+(19, 15, 1, 10),
+(20, 15, 3, 10);
+
+INSERT INTO Deliveries VALUES 
+(1, 'Delivered', 1), 
+(2, 'Delivered', 2), 
+(3, 'Delivered', 3), 
+(4, 'Delivered', 4), 
+(5, 'Delivered', 5),
+(6, 'Delivered', 6),
+(7, 'Delivered', 7),
+(8, 'Delivered', 8),
+(9, 'Delivered', 9),
+(10, 'Out for Delivery', 10),
+(11, 'Out for Delivery', 11),
+(12, 'Out for Delivery', 12),
+(13, 'Pending', 13),
+(14, 'Pending', 14),
+(15, 'Pending', 15);
